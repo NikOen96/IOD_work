@@ -5,7 +5,7 @@ from utils import preprocessor
 
 from huggingface_hub import hf_hub_download
 
-REPO_ID = ???
+REPO_ID = "Nik096/iod_sentiment_model"
 FILENAME = "model_.joblib"
 
 def run():
