@@ -19,7 +19,7 @@ def run():
     st.text("")
     predicted_sentiment = ""
     if st.button("Predict"):
-        predicted_sentiment = model.predict(pd.Series([userInput]))
+        predicted_sentiment = model.predict(pd.Series([userinput]))
         if predicted_sentiment == 1:
             output = 'positive 👍'
         else:
